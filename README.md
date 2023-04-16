@@ -5,4 +5,4 @@ load sample data:
 manage.py loaddata example_data.json
 ```
 
-[!result](./images/image.png)
+![result](./images/image.png)
