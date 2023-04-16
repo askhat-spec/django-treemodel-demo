@@ -1,0 +1,220 @@
+[
+    {
+        "model": "games.genre",
+        "pk": 1,
+        "fields": {
+            "name": "Action",
+            "parent": null
+        }
+    },
+    {
+        "model": "games.genre",
+        "pk": 2,
+        "fields": {
+            "name": "Adventure",
+            "parent": null
+        }
+    },
+    {
+        "model": "games.genre",
+        "pk": 3,
+        "fields": {
+            "name": "Sport",
+            "parent": null
+        }
+    },
+    {
+        "model": "games.genre",
+        "pk": 4,
+        "fields": {
+            "name": "FPS",
+            "parent": 1
+        }
+    },
+    {
+        "model": "games.genre",
+        "pk": 5,
+        "fields": {
+            "name": "Fighting",
+            "parent": 1
+        }
+    },
+    {
+        "model": "games.genre",
+        "pk": 6,
+        "fields": {
+            "name": "Puzzle",
+            "parent": 2
+        }
+    },
+    {
+        "model": "games.genre",
+        "pk": 7,
+        "fields": {
+            "name": "Visual novel",
+            "parent": 2
+        }
+    },
+    {
+        "model": "games.genre",
+        "pk": 8,
+        "fields": {
+            "name": "Race",
+            "parent": 3
+        }
+    },
+    {
+        "model": "games.genre",
+        "pk": 9,
+        "fields": {
+            "name": "Hunting and fishing",
+            "parent": 3
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 1,
+        "fields": {
+            "name": "Apex",
+            "genres": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 2,
+        "fields": {
+            "name": "Cyberpunk",
+            "genres": [
+                1,
+                2,
+                4
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 3,
+        "fields": {
+            "name": "Street Fighter",
+            "genres": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 4,
+        "fields": {
+            "name": "Forza",
+            "genres": [
+                3,
+                8
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 5,
+        "fields": {
+            "name": "Fifa",
+            "genres": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 6,
+        "fields": {
+            "name": "Need for Speed",
+            "genres": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 7,
+        "fields": {
+            "name": "Love Choice",
+            "genres": [
+                7
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 8,
+        "fields": {
+            "name": "Everlasting Summer",
+            "genres": [
+                2,
+                7
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 9,
+        "fields": {
+            "name": "Draw & Guess",
+            "genres": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 10,
+        "fields": {
+            "name": "Hunting Classic",
+            "genres": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 11,
+        "fields": {
+            "name": "Ultimate Fishing 2",
+            "genres": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 12,
+        "fields": {
+            "name": "Hunter",
+            "genres": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 13,
+        "fields": {
+            "name": "Snow Runner",
+            "genres": [
+                3,
+                8
+            ]
+        }
+    },
+    {
+        "model": "games.game",
+        "pk": 14,
+        "fields": {
+            "name": "Tekken",
+            "genres": [
+                5
+            ]
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{% for item in genre_items %}
+<li>
+    <a href="{{ item.get_url }}" class="dropdown-item {% if item.get_url == current_url %} active {% endif %}">
+        {{ item.name }}
+    </a>
+    {% if item.children.all %}
+    <ul style="list-style-type: none;">
+        {% for child in item.children.all %}
+        <li>
+            <a href="{{ child.get_url }}" class="dropdown-item {% if child.get_url == current_url %} active {% endif %}">
+                {{ child.name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</li>
+{% endfor %}
